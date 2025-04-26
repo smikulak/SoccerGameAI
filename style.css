@@ -1,0 +1,87 @@
+/* Use the imported Google Font, fallback to cursive/Comic Sans if needed */
+body {
+    font-family: 'Gochi Hand', cursive, 'Comic Sans MS';
+    background-color: #f0f8ff; /* AliceBlue - like slightly blue paper */
+    color: #000080; /* Navy Blue text */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto; /* Center the container */
+    background-color: #fffacd; /* LemonChiffon - like yellow paper */
+    border: 5px dashed #ff6347; /* Tomato color dashed border */
+    padding: 25px;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2); /* A little shadow */
+}
+
+h1 {
+    color: #ff4500; /* OrangeRed */
+    font-size: 3.5em; /* BIG heading */
+    margin-bottom: 10px;
+    text-shadow: 2px 2px #ffd700; /* Gold shadow */
+}
+
+.intro {
+    font-size: 1.8em;
+    color: #228b22; /* ForestGreen */
+    margin-bottom: 30px;
+}
+
+.game-links {
+    display: flex; /* Arrange links side-by-side */
+    justify-content: space-around; /* Space them out */
+    flex-wrap: wrap; /* Allow wrapping on small screens */
+    margin-bottom: 30px;
+}
+
+.game-link-item {
+    border: 3px dotted #1e90ff; /* DodgerBlue dotted border */
+    padding: 15px;
+    margin: 15px;
+    background-color: #e0ffff; /* LightCyan background */
+    min-width: 200px; /* Ensure items have some width */
+}
+
+.game-link-item h2 {
+    font-size: 1.5em;
+    color: #8a2be2; /* BlueViolet */
+    margin-top: 0;
+}
+
+.game-link-item img {
+    display: block; /* Make image a block to center it */
+    margin: 10px auto; /* Center image horizontally */
+    max-width: 150px; /* Limit image size */
+    height: auto;
+    border: 2px solid #000; /* Simple black border around image */
+}
+
+.game-link-item a {
+    display: inline-block; /* Allows padding and borders */
+    background-color: #32cd32; /* LimeGreen */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none; /* Remove underline */
+    font-size: 1.5em;
+    font-weight: bold;
+    border: 3px solid #006400; /* DarkGreen border */
+    border-radius: 15px; /* Rounded corners */
+    transition: background-color 0.2s ease; /* Smooth hover effect */
+}
+
+.game-link-item a:hover {
+    background-color: #ffdf00; /* A yellow color for hover */
+    color: #000; /* Black text on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+.footer {
+    font-size: 1.2em;
+    color: #dc143c; /* Crimson */
+    margin-top: 40px;
+    border-top: 2px dashed #ff69b4; /* HotPink dashed line above footer */
+    padding-top: 15px;
+}
